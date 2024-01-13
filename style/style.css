@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --ciano: #455A64;
+    --gray1: #B0BEC5;
+    --gray2: #757f91;
+    --gray3: #CFD8DC;
+    --blue: #005FFF;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6.5%;
+    background-color: #000;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-logo h2 {
+    color: var(--blue);
+}
+
+.icon-logo {
+    width: 45px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2.5em;
+}
+
+.nav-list li a {
+    color: var(--gray2);
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: var(--blue);
+    background-color: #fff;
+    padding: 10px 14px;
+    border-radius: 50px;
+}
+
+.icon-button {
+    width: 22px;
+}
