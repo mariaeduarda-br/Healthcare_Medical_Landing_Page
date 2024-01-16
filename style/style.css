@@ -363,7 +363,83 @@
     font-weight: 500;
 }
 
+.card-doctor h5 {
+    margin-bottom: 5px;
+}
+
 .card-doctor p {
     font-size: 10pt;
     color: var(--gray2);
+}
+
+/* Outher services */
+
+.other-services {
+    padding: 0 6.8%;
+    margin-bottom: 12%;
+}
+
+.container-text-top-otherserv h1 {
+    color: var(--dark-blue);
+    font-size: 26pt;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.container-card-otherserv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-functionality {
+    padding: 18px 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;   
+    width: 330px; 
+}
+
+.active-card-otherserv {
+    background-color: var(--gray1);
+}
+
+.active-icon-card img{
+    background-color: #fff;
+    width: 67px;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 5%;
+}
+
+.icon-card img {
+    width: 67px;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 5%;
+    background-color: var(--gray1);
+}
+
+.card-functionality h3 {
+    color: var(--dark-blue);
+    font-size: 17px;
+    margin-bottom: 5%;
+}
+
+.card-functionality p {
+    color: var(--gray2);
+    font-size: 10.5pt;
+    line-height: 1.7;
+    margin-bottom: 7.5%;
+}
+
+.card-functionality a{
+    color: var(--blue);
+    font-size: 10pt;
+    font-weight: 500;
+}
+
+.card-functionality i {
+    color: var(--blue);
+    font-size: 10pt;
 }
